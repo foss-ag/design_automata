@@ -16,5 +16,6 @@ Thumbs.db
 
 # Graphics #
 ############
+*.png
 *.svg
 !*.ink.svg
