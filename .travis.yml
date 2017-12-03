@@ -1,0 +1,13 @@
+# Using the container-based Ubuntu 14.04 Trusty setup
+language: shell
+script:
+  - make
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: wget https://raw.githubusercontent.com/foss-ag/script_deploy-artifact/master/deploy-artifact.sh ; sh deploy-artifact.sh output/*
+  on:
+    all_branches: true
+addons:
+  apt:
+    packages: [inkscape]
