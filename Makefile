@@ -1,18 +1,16 @@
 PIXEL=500
 
-clean:
-	# add Python script
-upload:
-	git add --all
-	git commit
+all: clean generate
 
-generate:
-	inkscape --export-plain-svg --export-text-to-path
-	inkscape --export-png
+clean:
+	rm -rf output
+
+generate: export-svg export-png
 
 export-svg:
 	inkscape --export-plain-svg --export-text-to-path
 
 export-png:
-	inkscape --export-png logo$(PIXEL)px.png --export-height=$(PIXEL) src/base.ink.svg
+	mkdir output
+	inkscape --export-png output/logo$(PIXEL)px.png --export-height=$(PIXEL) src/base.ink.svg
 
