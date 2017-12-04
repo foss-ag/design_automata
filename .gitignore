@@ -19,3 +19,6 @@ Thumbs.db
 *.png
 *.svg
 !*.ink.svg
+
+# generated files
+output/
