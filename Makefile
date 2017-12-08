@@ -8,7 +8,8 @@ clean:
 generate: export-svg export-png
 
 export-svg:
-	inkscape --export-plain-svg --export-text-to-path
+	mkdir output
+	inkscape --export-plain-svg=output/logo.svg --export-text-to-path src/base.ink.svg
 
 export-png:
 	mkdir output
