@@ -1,7 +1,7 @@
 # design_id
 Dieses Repo beinhaltet die offiziellen Vorlagen der FOSS-AG Design Identität.
 
-##colors
+## colors
 Enthält mindstens unsere aktuelle Farbpalette. 
 Um die Farben dauerhaft in Inkscape nutzen zu können, muss die .gpl Datei im entsprechenden resource Ordner gespeichert werden. Beispiel: `/usr/share/inkscape/palettes/foss-ag.gpl`.
 
