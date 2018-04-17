@@ -1,4 +1,5 @@
 PIXEL=500
+COLOR=foss-ag_green
 
 all: clean generate
 
@@ -7,11 +8,11 @@ clean:
 
 generate: export-svg export-png
 
-export-svg:
-	mkdir -p output
+export-svg: change-color 
 	inkscape --export-plain-svg=output/logo.svg --export-text-to-path src/base.ink.svg
 
-export-png:
+export-png: change-color
+	inkscape --export-png output/logo$(PIXEL)px_$(COLOR).png --export-height=$(PIXEL) output/tmp.svg
+change-color:
 	mkdir -p output
-	inkscape --export-png output/logo$(PIXEL)px.png --export-height=$(PIXEL) src/base.ink.svg
-
+	./changeStarColor.py $(COLOR)
