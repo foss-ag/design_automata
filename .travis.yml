@@ -1,7 +1,7 @@
 # Using the container-based Ubuntu 14.04 Trusty setup
 language: shell
 script:
-  - make
+  - make clean; for i in {green,greendark,greenlight,blue,bluedark,auqa}; do make generate COLOR=foss-ag_$i; done;
 deploy:
   skip_cleanup: true
   provider: script
