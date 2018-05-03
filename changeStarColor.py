@@ -17,6 +17,7 @@ root = tree.getroot()
 # Search tag
 c = root.find(".//*[@id='path6107-4-3']")
 c.set('fill','url(#' + args.newColor + ')' )
+c.set('stroke','url(#' + args.newColor + ')' )
 
 
 # Write to tmp file
