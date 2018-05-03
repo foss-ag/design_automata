@@ -1,0 +1,25 @@
+184  40  20   b82814ff  red
+184  20  61   b8143dff  crimson
+235  74  25   eb4a19ff  orange
+
+ 20 185 103   14b967ff  foss-ag_green
+ 20 185 144   14b990ff  light_green
+ 25 235 114   19eb72ff  neon_green
+ 
+ 20 122 184   147ab8ff  blue
+ 20 171 184   14abb8ff  light_blue
+ 25 166 235   19a6ebff  neon_blue
+
+154  20 184   9a14b8ff  violet
+185  20 143   b9148fff  purple
+235  25 149   eb1995ff  magenta
+
+255 204   0   ffcc00ff  yellow
+235 149  25   eb9519ff  orange
+235 223  25   ebdf19ff  neon_yellow
+
+229 229 229   e5e5e5ff  lighter_grey
+179 179 179   b3b3b3ff  light_grey
+128 128 128   808080ff  grey
+ 77  77  77   4d4d4dff  dark_grey
+ 38  38  38   262626ff  darker_grey
