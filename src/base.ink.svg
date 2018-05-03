@@ -25,24 +25,80 @@
       <stop style="stop-color:#14b967" />
     </linearGradient>
         <linearGradient
-       id="foss-ag_greendark">
+       id="foss-ag_light-green">
       <stop style="stop-color:#14b990" />
     </linearGradient>
     <linearGradient
-       id="foss-ag_greenlight">
-      <stop style="stop-color:#19a6eb" />
+       id="foss-ag_neon-green">
+      <stop style="stop-color:#19eb72" />
     </linearGradient>
     <linearGradient
+       id="foss-ag_red">
+      <stop style="stop-color:#b82814" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_crimson">
+      <stop style="stop-color:#b8143d" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_orange">
+      <stop style="stop-color:#eb4a19" />
+    </linearGradient>
+      <linearGradient
        id="foss-ag_blue">
       <stop style="stop-color:#147ab8" />
     </linearGradient>
     <linearGradient
-       id="foss-ag_bluedark">
-      <stop style="stop-color:#147ab8" />
+       id="foss-ag_light-blue">
+      <stop style="stop-color:#14abb8" />
     </linearGradient>
     <linearGradient
-       id="foss-ag_auqa">
-      <stop style="stop-color:#14abb8" />
+       id="foss-ag_neon-blue">
+      <stop style="stop-color:#19a6eb" />
+    </linearGradient>
+          <linearGradient
+       id="foss-ag_violet">
+      <stop style="stop-color:#9a14b8" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_purple">
+      <stop style="stop-color:#b9148f" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_magenta">
+      <stop style="stop-color:#eb1995" />
+    </linearGradient>
+          <linearGradient
+       id="foss-ag_yellow">
+      <stop style="stop-color:#ffcc00" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_orange">
+      <stop style="stop-color:#eb9519" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_neon-yellow">
+      <stop style="stop-color:#ebdf19" />
+    </linearGradient>
+          <linearGradient
+       id="foss-ag_lighter-grey">
+      <stop style="stop-color:#e5e5e5" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_light-grey">
+      <stop style="stop-color:#b3b3b3" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_grey">
+      <stop style="stop-color:#808080" />
+    </linearGradient>
+     <linearGradient
+       id="foss-ag_dark-grey">
+      <stop style="stop-color:#4d4d4d" />
+    </linearGradient>
+    <linearGradient
+       id="foss-ag_darker-grey">
+      <stop style="stop-color:#262626" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
