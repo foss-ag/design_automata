@@ -1,0 +1,3 @@
+[submodule "design_fonts"]
+	path = design_fonts
+	url = https://github.com/foss-ag/design_fonts
