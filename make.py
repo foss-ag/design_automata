@@ -31,6 +31,8 @@ ACCENT_PALETTE = [
     'dark-grey'
 ]
 
+# Create an empty directory on path, if it does not already exist, otherwise do
+# nothing
 def mkdir(path: str):
     if not os.path.exists(path):
         os.makedirs(path)
@@ -62,11 +64,18 @@ def export(colors: [str] = [DEFAULT_COLOR], size: int = DEFAULT_SIZE, svg_dir: s
 
         # Generate the .png-files, if it has been selected to do so
         if png:
-            call(['inkscape',
+            res = call(['inkscape',
                   '--export-png',
                   png_dir + '/logo' + str(size) + 'px_' + c + '.png',
                   '--export-height=' + str(size),
                   svg_dir + '/logo_' + c + '.svg'])
+
+            if res != 0:
+                # The build failed. Abort the process
+                return res
+
+    # Building was successful for all files
+    return 0
 
 def main():
     # Commandline options
@@ -107,7 +116,7 @@ def main():
 
     print('Building the following colors:', args.colors)
 
-    export(args.colors, args.size, svg_dir, not args.svg_only, DEFAULT_DIR)
+    return export(args.colors, args.size, svg_dir, not args.svg_only, DEFAULT_DIR)
 
 if __name__ == "__main__":
     main()
