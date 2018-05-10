@@ -1,7 +1,7 @@
 # Using the container-based Ubuntu 14.04 Trusty setup
 language: shell
 script:
-  - make clean; for i in {green,neon-green,red,crimson,orange,blue,light-blue,neon-blue,violet,purple,magenta,yellow,orange,neon-yellow,lighter-grey,light-grey,grey,dark-grey,darker-grey}; do make generate COLOR=foss-ag_$i; done;
+  - python make.py --clean; python make.py --all;
 deploy:
   skip_cleanup: true
   provider: script
@@ -10,4 +10,6 @@ deploy:
     all_branches: true
 addons:
   apt:
-    packages: [inkscape]
+    packages:
+      - inkscape
+      - python3
