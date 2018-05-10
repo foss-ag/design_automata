@@ -1,18 +1,25 @@
 PIXEL=500
 COLOR=foss-ag_green
+OUTDIR=output
 
-all: clean generate
+clean-gen: clean generate
 
 clean:
-	rm -rf output
+	rm -rf $(OUTDIR)
+
+clean-tmp:
+	rm $(OUTDIR)/tmp.svg
 
 generate: export-svg export-png
 
-export-svg: change-color 
-	inkscape --export-plain-svg=output/logo.svg --export-text-to-path src/base.ink.svg
+export-svg: create-out-dir change-color
+	inkscape --export-plain-svg=$(OUTDIR)/logo.svg --export-text-to-path src/base.ink.svg
 
-export-png: change-color
-	inkscape --export-png output/logo$(PIXEL)px_$(COLOR).png --export-height=$(PIXEL) output/tmp.svg
-change-color:
-	mkdir -p output
+export-png: create-out-dir change-color
+	inkscape --export-png $(OUTDIR)/logo$(PIXEL)px_$(COLOR).png --export-height=$(PIXEL) $(OUTDIR)/tmp.svg
+
+change-color: create-out-dir
 	./changeStarColor.py $(COLOR)
+
+.PHONY create-out-dir:
+	mkdir -p $(OUTDIR)
