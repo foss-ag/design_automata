@@ -1,7 +1,7 @@
 # Using the container-based Ubuntu 14.04 Trusty setup
 language: shell
 script:
-  - python make.py --clean; python make.py --all;
+  - python3 make.py --clean; python3 make.py --all;
 deploy:
   skip_cleanup: true
   provider: script
