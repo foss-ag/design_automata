@@ -2,24 +2,25 @@ GIMP Palette
 Name: FOSS-AG
 Columns: 16
 #
+255 255 255 foss-ag_white
+229 229 229 foss-ag_lighter-grey
+179 179 179 foss-ag_light-grey
+128 128 128 foss-ag_grey
+ 77  77  77 foss-ag_dark-grey
+ 38  38  38 foss-ag_darker-grey
+  0   0   0 foss-ag_black
  20 185 103 foss-ag_green
  20 185 144 foss-ag_light-green
  25 235 114 foss-ag_neon-green
-184  40  20 foss-ag_red
-184  20  61 foss-ag_crimson
-235  74  25 foss-ag_orange
  20 122 184 foss-ag_blue
  20 171 184 foss-ag_light-blue
  25 166 235 foss-ag_neon-blue
 154  20 184 foss-ag_violet
 185  20 143 foss-ag_purple
 235  25 149 foss-ag_magenta
+184  40  20 foss-ag_red
+184  20  61 foss-ag_crimson
+235  74  25 foss-ag_red-orange
 255 204   0 foss-ag_yellow
 235 149  25 foss-ag_orange
 235 223  25 foss-ag_neon-yellow
-229 229 229 foss-ag_lighter-grey
-179 179 179 foss-ag_light-grey
-128 128 128 foss-ag_grey
- 77  77  77 foss-ag_dark-grey
- 38  38  38 foss-ag_darker-grey
-

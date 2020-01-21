@@ -110,6 +110,21 @@
          cy="256"
          r="256" />
     </clipPath>
+    <linearGradient
+       id="rainbowGradient">
+        <stop offset="0%" stop-color="#9a14b8"/> <!--violet-->
+        <stop offset="16.6%" stop-color="#9a14b8"/>
+        <stop offset="16.6%" stop-color="#147ab8"/> <!--blue-->
+        <stop offset="33.3%" stop-color="#147ab8"/>
+        <stop offset="33.3%" stop-color="#14b967"/> <!--green-->
+        <stop offset="50%" stop-color="#14b967"/>
+        <stop offset="50%" stop-color="#ffcc00"/> <!--yellow-->
+        <stop offset="66.6%" stop-color="#ffcc00"/>
+        <stop offset="66.6%" stop-color="#eb9519"/> <!--orange-->
+        <stop offset="83.3%" stop-color="#eb9519"/>
+        <stop offset="83.3%" stop-color="#b8143d"/> <!--crimson-->
+        <stop offset="100%" stop-color="#b8143d"/>
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
