@@ -14,11 +14,29 @@
    id="svg2250"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="video_endcard.ink.svg"
-   inkscape:export-filename="~/basis.png"
+   inkscape:export-filename="/home/josef/Projekte/design_id/out/endcard.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
      id="defs2244">
+    <rect
+       x="917.45759"
+       y="441.05357"
+       width="819.13371"
+       height="443.34375"
+       id="rect1162" />
+    <rect
+       x="1104.1045"
+       y="-234.95102"
+       width="279.44299"
+       height="800.7193"
+       id="rect1152" />
+    <rect
+       x="1106.2042"
+       y="304.50135"
+       width="949.9275"
+       height="311.7174"
+       id="rect323" />
     <linearGradient
        id="foss-ag_green"
        gradientTransform="scale(0.99916431,1.0008364)"
@@ -153,9 +171,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47339178"
-     inkscape:cx="876.68807"
-     inkscape:cy="490.26737"
+     inkscape:zoom="0.58333333"
+     inkscape:cx="960"
+     inkscape:cy="540"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -187,8 +205,18 @@
      units="px"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
-     showguides="false"
-     inkscape:document-rotation="0" />
+     showguides="true"
+     inkscape:document-rotation="0"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="603.28076,854.52986"
+       orientation="0,-1"
+       id="guide1156" />
+    <sodipodi:guide
+       position="1736.5913,780.51441"
+       orientation="1,0"
+       id="guide1158" />
+  </sodipodi:namedview>
   <metadata
      id="metadata2247">
     <rdf:RDF>
@@ -197,7 +225,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
       </cc:Work>
@@ -237,7 +265,7 @@
        inkscape:label="background" />
     <g
        id="g75"
-       transform="matrix(1.8653118,0,0,1.8653118,170.50525,95.258092)">
+       transform="matrix(1.8653118,0,0,1.8653118,11.143643,29.746931)">
       <path
          id="path6107-4-3"
          d="m 110.93017,371.92545 c 13.09251,7.55896 26.18501,15.11793 39.27752,22.67689 l 5.41571,-9.38029 c 6.81427,-11.80205 11.87314,-24.63805 16.75523,-37.61962 4.88295,12.98319 9.93975,25.82103 16.7547,37.62302 l 5.41528,9.37885 c 13.0931,-7.55764 26.18517,-15.11707 39.27729,-22.67639 l -5.41528,-9.37886 c -6.72113,-11.64127 -15.16904,-22.30674 -23.74343,-33.0567 13.59647,2.05063 27.05824,4.03779 40.50026,4.0369 l 10.831,-10e-4 c 0.001,-15.11779 4.5e-4,-30.23557 -1.7e-4,-45.35337 l -10.83002,-2.5e-4 c -13.62844,-7e-5 -27.27595,2.03754 -40.95954,4.2969 8.8018,-10.72249 17.39065,-21.52093 24.20401,-33.32386 l 5.41571,-9.38029 c -13.09251,-7.55896 -26.18501,-15.11792 -39.27751,-22.67688 l -5.41571,9.38028 c -6.81422,11.80257 -11.87223,24.63894 -16.757,37.6234 -4.88384,-12.98093 -9.94458,-25.81584 -16.75912,-37.61853 l -5.41231,-9.384 c -13.0931,7.5577 -26.1852,15.11714 -39.27735,22.67648 l 5.41432,9.38054 c 6.72129,11.64242 15.17217,22.3089 23.74871,33.05963 -13.59882,-2.0521 -27.0592,-4.03633 -40.503114,-4.03606 l -10.830942,0.001 c -0.0012,15.11781 -4.18e-4,30.23561 2.59e-4,45.35342 l 10.829967,3.4e-4 c 13.62797,2.7e-4 27.27382,-2.03734 40.95949,-4.30184 -8.80177,10.71867 -17.38805,21.51717 -20.79515,27.41859 z"
@@ -262,5 +290,36 @@
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccc"
          style="fill:#b3b3b3;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.02;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       id="text321"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;line-height:1.25;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect323);fill:#b3b3b3;fill-opacity:1;stroke:none;"
+       transform="translate(-252.99777,-97.342397)"><tspan
+         x="1106.2051"
+         y="446.51071"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:166.667px;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans Bold';fill:#b3b3b3;fill-opacity:1">// FOSS-AG</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1150"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1152);fill:#000000;fill-opacity:1;stroke:none;" />
+    <text
+       xml:space="preserve"
+       id="text1160"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.667px;line-height:1.25;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1162);fill:#e5e5e5;fill-opacity:1;stroke:none;"><tspan
+         x="917.45703"
+         y="531.93843"><tspan
+           style="font-size:106.667px;fill:#e5e5e5">Montags 17:00
+</tspan></tspan><tspan
+         x="917.45703"
+         y="665.27218"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans Bold'">foss-ag.de</tspan><tspan
+           style="fill:#b3b3b3">/bbb</tspan><tspan
+           style="font-size:106.667px;fill:#e5e5e5">
+</tspan></tspan><tspan
+         x="917.45703"
+         y="798.60592"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans Bold'">foss-ag.de</tspan><tspan
+           style="fill:#b3b3b3">/chat</tspan><tspan
+           style="font-size:106.667px;fill:#e5e5e5"> </tspan></tspan></text>
   </g>
 </svg>
